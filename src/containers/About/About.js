@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Helmet from 'react-helmet';
 import { MiniInfoBar } from 'components';
+import Hello from '../Hello/Hello';
 
 export default class About extends Component {
 
@@ -44,6 +45,7 @@ export default class About extends Component {
         </p>
 
         {showKitten && <div><img src={kitten}/></div>}
+        <Hello />
       </div>
     );
   }

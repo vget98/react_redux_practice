@@ -11,7 +11,7 @@ import {
     LoginSuccess,
     Survey,
     NotFound,
-    Pagination,
+    Pagination
   } from 'containers';
 
 export default (store) => {
